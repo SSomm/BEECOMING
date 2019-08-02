@@ -1,0 +1,176 @@
+@font-face{
+	font-family: "ThecircleL";
+	src:local(※),url("../font/ThecircleL.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "ThecircleM";
+	src:local(※),url("../font/ThecircleM.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "ThecircleB";
+	src:local(※),url("../font/ThecircleB.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "a뉴고딕M";
+	src:local(※),url("../font/KoreanNGD-M.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face{  
+	font-family: 'NanumGothic';
+ 	font-style: normal;
+  	font-weight: 100;
+  	src: local(※), url('../font/NanumGothic.woff') format('woff')
+}
+@font-face{  
+	font-family: '조선일보명조';
+ 	font-style: normal;
+  	font-weight: 100;
+  	src: local(※), url('../font/조선일보명조.woff') format('woff')
+}
+@font-face{  
+	font-family: '더페이스샵 잉크립퀴드체';
+ 	font-style: normal;
+  	font-weight: 100;
+  	src: local(※), url('../font/lipquid.woff') format('woff')
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	font-family: "ThecircleL";
+	/*font-color:dimgray;*/
+}
+body{
+	width: 1920px;
+	min-width: 1600px;
+	overflow-x: hidden;
+}
+.circle{
+	border-radius: 50%;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: rgba(255,255,255,0.7);
+	position: fixed;
+	z-index: 700;
+	left: 0;
+	top: 0;
+}
+.header_wrap{
+	width: 1166px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.header_logo{
+	width: 260px;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 1.5%;
+	padding-left: 2%;
+}
+.header_logo > a>img{
+	width: 65%;
+}
+.search_div{
+	width: 431px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.search_div > input{
+	border:2px solid #ee1e72;
+	background: none;
+	border-radius: 7px;
+	width: 291px;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 1.0em;
+	margin-top: 35px;
+	color: #ee1e72;
+}
+.search_div > input::placeholder{
+	color:white;
+	text-shadow: 1px 1px 2px dimgray;
+}
+
+.search_circle{
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+	background: #ee1e72;
+	position: absolute;
+	bottom: 25px;
+	right: 80px;
+	box-sizing: border-box;
+	padding-left: 2%;
+	padding-top: 2.2%;
+	cursor: pointer;
+}
+.search_circle > i{
+	color: white;
+	font-size: 1.3em;
+}
+.menu_div{
+	width: 470px;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.menu_div_top{
+	width: 100%;
+	height : 40%;
+	/*background: blue;*/
+}
+.menu_div_top > a{
+	float: right;
+	/*font-size:1.3em;*/
+	color: dimgray;
+	font-size: 1.2em;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.menu_div_top > a:nth-child(2){
+	margin-right: 30px;
+}
+.menu_div_bottom{
+	width: 100%;
+	height: 60%;
+	/*background: skyblue;*/
+}
+.menu_div_bottom >p{
+	width: 112px;
+	height: 70px;
+	float: left;
+	text-align: center;
+	font-size:1.2em;
+}
+.menu_div_bottom >p:nth-child(1){
+	margin-left: 20px;
+}
+.menu_div_bottom >p > a{
+	
+	line-height: 70px;
+	color: dimgray;
+	font-size: 1.1em;
+}
+

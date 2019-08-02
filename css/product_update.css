@@ -1,0 +1,495 @@
+html{
+	height: 1000px;
+}
+body{
+	background: #f3f2f2;
+	height: 100px;
+	/*overflow: auto;*/
+	/*background-color: red;*/
+	/*height: 1000px;*/
+	/*margin-top: -300px;*/
+	/*height: auto;*/
+}
+footer{
+	margin-top: 80px;
+}
+.wrap{
+	width: 1920px;
+	/*height: 100px;*/
+	overflow: auto;
+	/*height: ;*/
+	/*overflow: auto;*/
+	/*background: black;*/
+	position: relative;
+	margin-top: -20px;
+	/*font-family:sans-serif;*/
+}
+.cuator_main_section{
+	width: 100%;
+	height: 603px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	/*background:rgba(255,255,255,0.6);*/
+	/*opacity:0.3;*/
+}
+.cuator_main_section > .main_img{
+	position: absolute;
+	left: 0;
+	/*top: -200px;*/
+	margin-top: -200px;
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	z-index: 1;
+	/*opacity:0.3;*/
+}
+.cuator_main_section > .gray_img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+}
+.path_div{
+	width: 1140px;
+	height: 50px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+	position: absolute;
+	z-index: 1;
+	top: 130px;
+	left: 390px;
+	box-sizing: border-box;
+	border-left: 10px solid #ee1e73;
+}
+.path_div > span{
+	line-height: 50px;
+
+}
+.infos_div{
+	width: 1140px;
+	height: 50px;
+	z-index: 4;
+	/*background: red;*/
+	top: 200px;
+	left: 410px;
+	position: absolute;
+}
+.infos_div > p{
+	color: #313234;
+	margin-right: 20px;
+	text-align: right;
+	line-height: 50px;
+	font-size: 1.3em;
+}
+.saller_section{
+	width: 100%;
+	height: auto;
+	/*overflow: auto;*/
+	position: relative;
+	z-index: 2;
+	top: -400px;
+}
+.saller_wrap{
+	width: 1439px;
+	height: auto;
+	/*overflow: auto;*/
+	/*background: red;*/
+	margin-left: 118px;
+}
+.saler_left{
+	width: 255px;
+	height: 830px;
+	float: left;
+	background: white;
+	box-sizing: border-box;
+	padding: 7px;
+	border: 1px solid #ddd;
+}
+.saller_logo{
+	width: 100%;
+	height: 114px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	border-bottom:1px solid #ddd; 
+}
+.saller_logo_img{
+	width: 229px;
+	height: 87px;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+	/*margin-top: 20px;*/
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.saller_logo_img>img{
+	width: 100%;
+}
+.saller_info{
+	width: 100%;
+	height: 86px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	padding-top: 25px;
+}
+.saller_info > p{
+	text-align: center;
+	font-size: 17px;
+}
+.saller_other{
+	width: 100%;
+	height: 272px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+.saller_other >p{
+	font-size: 23px;
+	text-align: center;
+	line-height: 55px;
+}
+.order_count_circle{
+	width: 24px;
+	height: 24px;
+	background: #ee1e72;
+	position: absolute;
+	right: 15px;
+	top: 34px;	
+	text-align: center;
+}
+.order_count_circle > p{
+	line-height: 24px;
+	color: white;
+	font-size: 17px;
+}
+.product_count_circle{
+	width: 24px;
+	height: 24px;
+	background: #ee1e72;
+	position: absolute;
+	right: 15px;
+	top: 90px;	
+	text-align: center;
+}
+.product_count_circle > p{
+	line-height: 24px;
+	color: white;
+	font-size: 17px;
+}
+.sales_rate_div{
+	width: 100%;
+	height: 116px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.sales_rate_div > p{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 10px;
+	color:dimgray;
+}
+.sales_rate_div > h1{
+	font-size: 30px;
+	margin-top: 15px;
+}
+.sales_rate_div > h1,.sales_rate_div > h1 > sub{
+	/*line-height: 116px;*/
+	text-align: center;
+	color: #ee1e72;
+}
+.saller_right{
+	float: left;
+	width: 1156px;
+	height: auto;
+	/*overflow: auto;*/
+	margin-left: 20px;
+	/*background: red;*/
+}
+.saller_right_top{
+	width: 100%;
+	height: 90px;	
+}
+.saller_right_top > h1{
+	width: 100%;
+	height: 62px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	line-height: 62px;
+	border-left: 5px solid #ee1e72
+}
+.saller_right_body{
+	width: 100%;
+	height: auto;
+	/*overflow: auto;*/
+	background: white;
+	border: 1px solid #ddd;;	
+	box-sizing: border-box;
+	padding-top: 62px;
+	padding-left: 154px;
+	padding-right: 204px;
+}
+.saller_right_body_wrap{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	/*margin: 0 auto;*/
+	/*background: red;*/
+}
+.saller_right_body_wrap > h1{
+	text-align: center;
+	font-size: 31px;
+}
+.saller_right_body_wrap > p{
+	text-align: right;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.saller_insert_group{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+}
+.option_group:nth-child(1){
+	margin-top: 15px;
+}
+.option_group:nth-child(1) > .saller_insert_group:nth-child(1){
+	/*width: 100%;*/
+	/*height: 40px;*/
+	margin-top: 15px;
+}
+.saller_insert_group *{
+	font-family: "a뉴고딕M";
+	font-size:13px;
+}
+
+.saller_insert_group > input[type="text"]{
+	float: left;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-left: 20px;
+	width: 675px;
+	padding-left: 10px;
+}
+.saller_insert_group_title{
+	float: left;
+	width: 100px;
+	height: 100%;
+}
+.saller_insert_group_title > p{
+	text-align: right;
+	font-size: 15px;
+	line-height: 40px;
+}
+.product_div,.more_div{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.product_select,.more_select{
+	width: 275px;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-left: 20px;
+}
+.product_option{
+	width: 225px;
+	float: left;
+	/*background: red;*/
+	height: 40px;
+	margin-top: 5px;
+}
+.option_group:nth-child(1){
+	margin-top: 15px;
+}
+.product_more_option{
+	margin-left: 20px;
+	width: 103px;
+	height: 40px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+.product_more{
+	width:305px;
+	height:40px;
+	float: left;
+	margin-left: 10px;
+}
+.product_more_insert{
+	width: 107px;
+	height: 40px;
+	float: left;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-left: 7px;
+}
+.product_item_count{
+	width: 195px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+.product_count_insert{
+	width: 75px;
+	height:40px;
+	float: left;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+.delivery_examp{
+	width: 100%;
+	height: 60px;
+	/*background: red;*/
+}
+.large_group{
+	/*background: red;*/
+	height: 90px;
+}
+.large_group > textarea{
+	width: 675px;
+	margin-left: 20px;
+	height: 90px;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 1px solid #ddd;
+	resize: none;
+}
+.down_icon{
+	position: absolute;
+	right: 10px;
+	color: #ddd;
+	top: 0;
+	z-index: 1;
+	font-size: 30px;
+	font-family: 'Font Awesome 5 Free';
+}
+.delivery_info{
+	position: absolute;
+	top: 40px;
+	width: 675px;
+	left: 120px;
+	/*height: 50px;*/
+	overflow: auto;
+	background: white;
+	padding-bottom: 10px;
+	border: 1px solid #ddd;
+	display: none;
+}
+.delivery_info > p{
+	font-size: 14px;
+	color: dimgray;
+	width: 100%;
+	height: 25px;
+	padding-left: 10px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.auto_group{
+	height: auto;
+	overflow: auto;
+	/*background: red;*/
+}
+.thumbnail_div{
+	width: 675px;
+	margin-left: 20px;
+	/*height: 100px;*/
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.producnt_file_div{
+	width: 675px;
+	margin-left: 20px;
+	/*height: 100px;*/
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.producnt_insert_btns{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+.producnt_insert_btns > button{
+	width: 100px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	background: #4b4db6;
+	border: none;
+	font-size: 21px;
+}
+.producnt_insert_success{
+	background: #ee1e72;	
+}
+.product_banner{
+	width: 130%;
+	height: 200px;
+	margin-top: 40px;
+	margin-left: -12%;
+	background: black;
+}
+.product_banner>img{
+	width:100%;
+	height:auto;
+}
+footer{
+	margin-top: -200px;
+}
+
+.product_opiton_add{
+	width: 50px;
+	height: 40px;
+	float: left;
+	/*background: red;*/
+	/*background: */
+	border-radius: 5px;
+	/*background: #4b4db6;*/
+	cursor: pointer;
+	text-align: center;
+}
+.product_opiton_add > i{
+	line-height: 40px;
+	font-size: 27px;
+	color:#ddd;
+	font-family: 'Font Awesome 5 Free';
+	cursor: pointer;
+}
+
+.saller_insert_group input::placeholder,.saller_insert_group textarea::placeholder{
+	font-size: 14px;
+}
+.product_sell_placeholder{
+	font-family:"a뉴고딕M";
+	font-size:10px;
+
+}
+
+.option_group_wrap{
+	width: 100%;
+	/*height: 100%;*/
+	/*height: auto;*/
+	height:50px;
+}
+
+
+.option_box{
+	height: auto;
+	/*overflow: auto;*/
+}
+.not_margin_group{
+	margin-top: 0;
+}

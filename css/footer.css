@@ -1,0 +1,61 @@
+footer{
+	width: 100%;
+	height: 214px;
+	position: relative;
+	/*top:-2px;*/
+	bottom:0;
+	background: #242524;
+	/*background-color: red;*/
+	overflow: hidden;
+}
+footer *{
+	color:#5e5e5f;
+	font-family: 'a뉴고딕M';
+}
+.footer_left{
+	float: left;
+	width: 1385px;
+	height: 50%;
+	/*background: red;*/
+}
+.footer_menu{
+	width: 90%;
+	height: 60px;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+.footer_info{
+	width: 90%;
+	margin-left: 10%;
+	height: 70px;
+	/*background: blue;*/
+}
+.footer_info>p{
+	font-size:0.9em;
+	line-height: 25px;
+}
+.copyright{
+	margin-top: 10px;
+	margin-left: 755px;
+}
+.footer_menu > li{
+	float: left;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	border-left: 2px solid #5e5e5f;
+}
+.footer_menu > li:nth-child(5){
+	border-right: 2px solid #5e5e5f;
+}
+.footer_right{
+	width: 500px;
+	height: 100%;
+	float: left;
+}
+.footer_right > img{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+}

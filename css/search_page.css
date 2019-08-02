@@ -1,0 +1,692 @@
+.wrap{
+	width: 1920px;
+	height: auto;
+	position: relative;
+	margin-top: -20px;
+	/*font-family:sans-serif;*/
+}
+.cuator_main_section{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.cuator_main_section > img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.path_div{
+	width: 1140px;
+	height: 50px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+	position: absolute;
+	z-index: 1;
+	top: 130px;
+	left: 390px;
+	box-sizing: border-box;
+	border-left: 10px solid #ee1e73;
+}
+.path_div > span{
+	line-height: 50px;
+
+}
+.communitypage_info{
+	width: 1140px;
+	height: 50px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+	position: absolute;
+	z-index: 1;
+	top: 200px;
+	left: 390px;
+	/*color:dimgray;*/
+	box-sizing: border-box;
+}
+.communitypage_info > p{
+	color: #504b4d;
+	font-family: '조선일보명조';
+	font-size: 1.4em;
+	margin-left: 30px;
+	line-height: 50px;
+}
+.serach_section{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: #f3f2f2;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+}
+.search_wrap{
+	width: 1200px;
+	height: auto;
+	min-height: 300px;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	overflow: auto;
+}
+.search_shop{
+	width: 100%;
+	height: 509px;
+	position: relative;
+	/*background: red;*/
+}
+.shop_title{
+	width: 100%;
+	height: 100px;
+	/*background: red;*/
+	padding-left: 40px;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.shop_title > h1{
+	color: #f35a98;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border-left: 5px solid #f35a98;
+}
+.shop_title > span{
+	color: white;
+	width:130px;
+	height:35px;
+	position:absolute;
+	right:110px;
+	top:50px;
+	background: #959595;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	/*padding: 3px;*/
+	margin-left: 20px;
+	text-align: center;
+	line-height: 35px;
+	/*margin-top: 5px;*/
+	cursor: pointer;
+}
+.curator_top > span{
+	color: white;
+	width:130px;
+	height:35px;
+	position:absolute;
+	right:110px;
+	top:50px;
+	background: #959595;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	/*padding: 3px;*/
+	margin-left: 20px;
+	text-align: center;
+	line-height: 35px;
+	/*margin-top: 5px;*/
+	cursor: pointer;
+}
+.shop_title > *{
+	float: left;
+}
+.shop_body{
+	width: 1060px;
+	height: 405px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.shop_body > div{
+	float: left;
+}
+.shop_body > .shop_left,.shop_body > .shop_right{
+	width: 90px;
+	height: 100%;
+	float: left;
+	/*background: blue;*/
+}
+.shop_main{
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+}
+.shop_btn{
+	width: 23px;
+	height: 31px;
+	background: #cccccc;
+	border: none;
+	color: white;
+	cursor: pointer;
+	margin-left: 38px;
+	margin-top: 138px;
+}
+.shop_main_item{
+	width: 240px;
+	height: 340px;
+	margin-top: 20px;
+	background: white;
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+	border: 0.25px solid #ddd;
+	/*그림자가 조절이 잘 안되요ㅜ..ㅠㅠ*/
+	box-shadow: 2px 2px 4px #ececec;
+}
+.shop_item_img{
+	width: 100%;
+	height: auto;
+	padding:3px;
+	overflow: hidden;
+	cursor:pointer;
+	/*background: red;*/
+}
+.shop_item_img > img{
+	width: 98%;
+	height: 80%;
+}
+.shop_item_info{
+	width: 100;
+	height: 110px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	/*background: red;*/
+}
+.shop_item_info > p{
+	text-align: center;
+	color: #959494;
+	font-size: 0.8em;
+	cursor:pointer;
+}
+.search_cuartor{
+	width: 100%;
+	height: 300px;
+	/*background: blue;*/
+}
+.curator_top{
+	width: 100%;
+	height: 80px;
+	padding-left: 40px;
+	padding-top: 30px;
+box-sizing: border-box;
+/*background: blue;*/
+}
+.curator_top > h1{
+	color: #f35a98;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border-left: 5px solid #f35a98;
+}
+.curator_body{
+	width: 1030px;
+	height: 200px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.curator_card{
+	width: 195px;
+	height: 220px;
+	background: white;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	float: left;
+	margin-left: 10px;
+}
+.curator_back{
+	width: 100%;
+	height: 124px;
+	position: relative;
+	/*background: black;*/
+	overflow: hidden;
+	text-align: center;
+}
+
+.curator_back > h3{
+	position: relative;
+	line-height: 124px;
+	z-index: 3;
+	font-family: "더페이스샵 잉크립퀴드체";
+	font-size: 20pt;
+}
+.curator_back > img{
+	/*width: 100%;*/
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.curator_info{
+	width: 100%;
+	height: 55px;
+	position: relative;
+	/*background: red;*/
+}
+.search_circle_cuator{
+	width: 80px;
+	height: 80px;
+	/*background: black;*/
+	position: absolute;
+	top: -12px;
+	left: 60px;
+	z-index: 2;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.search_circle_cuator > img{
+	width: 100%;
+}
+.search_circle_cuator:hover{
+		transform: scale(1.1);
+		transition: all 1s;
+}
+.curator_info > p{
+	font-size: 0.8em;
+	color: #8e8e8e;
+	width:100%;
+	/*padding-left: 10px;*/
+	padding-top: 33px;
+	position: absolute;
+	text-align: center;
+	bottom:-35px;
+}
+.search_event{
+	width: 100%;
+	height: 410px;
+	/*background: red;*/
+}
+
+.event_top{
+	width: 100%;
+	height: 96px;
+	padding-left: 40px;
+	padding-top: 40px;
+box-sizing: border-box;
+/*background: blue;*/
+}
+.event_top > h1{
+	color: #f35a98;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border-left: 5px solid #f35a98;
+}
+.event_body{
+	width: 1085px;
+	height: 258px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.event_div{
+	float: left;
+	width: 534px;
+	height: 100%;
+	position: relative;
+	/*background: blue;*/
+}
+.event_div > img{
+	width: 100%;
+	position: absolute;left: 0;top: 0;
+}
+.event_black{
+	width: 99%;height: 100%;
+	position: absolute;left: 0; top: 0;
+	z-index: 1;
+	 background: rgba(100,100,100,0.5);
+}
+.event_div > h1{
+	color: white;
+	position: absolute;
+	right: 20px;
+	z-index: 3;
+	top: 70px;
+	text-align: center;
+	font-size: 2.0em;
+	line-height: 60px;
+}
+.search_board{
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+}
+.board_top{
+	width: 100%;
+	height: 100px;
+	/*background: red;*/
+	padding-left: 40px;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.board_top > h1{
+	color: #f35a98;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border-left: 5px solid #f35a98;
+}
+.board_top > span{
+	color: white;
+	background: #959595;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	padding: 3px;
+	margin-left: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.board_top > *{
+	float: left;
+}
+.board_main{
+	width: 1085px;
+	height:auto;
+	/*background: red;*/
+	margin: 0 auto;
+}
+
+.main_list{
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	border: 1px solid #acacac;
+	margin-top: 10px;
+}
+/*.main_list:nth-child(9){
+	border:none;
+}*/
+.main_list > div{
+	float: left;
+	cursor: pointer;
+}
+.prof_icon_div{
+	width: 80px;
+	height: 100%;
+	/*background: red;*/
+}
+.pro_icon{
+	width: 50px;
+	height: 50px;
+	/*overflow: hidden;*/
+	border-radius: 50%;
+	background: #ed145b;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.pro_warp_circle{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	/*background: red;*/
+}
+.pro_warp_circle > img{
+	width: 40px;
+	height: 40px;
+}
+.title_div{
+	width: 400px;
+	height: 100%;
+}
+.title_div > p{
+	line-height: 70px;
+	color: gray;
+	margin-left: 5px;
+}
+.info_div{
+	width: 450px;
+	height: 100%;
+	/*margin-left: 5px;*/
+	/*background: red;*/
+	/*padding-left: 10px;*/
+}
+.info_div > span{
+	display: inline-block;;
+	color:dimgray;
+	/*line-height: 70px;*/
+}
+.icon_circle{
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	background: #ed145b;
+	margin-top: 25px;
+	margin-left: 10px;
+	padding-left: 3px;
+	padding-top:2px;
+	box-sizing: border-box;
+}
+.icon_circle > i{
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+}
+.date_div{
+	height: 100%;
+	width: 135px;
+	/*background: red;*/
+}
+.date_div > p{
+	line-height: 70px;
+	text-align: center;
+	color: gray;
+}
+.board_list_items{
+	box-sizing: border-box;
+	padding-top: 20px;
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+}
+.item_board{
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	background: white;
+	border: 1px solid #b7b7b7;
+}
+.item_board:nth-child(1){
+	margin-top: 0;
+}
+.item_img{
+	/*background: blue;*/
+	box-sizing: border-box;
+	padding-top: 21px;
+	padding-left: 25px;
+	width: 171px;
+	height: 100%;
+	float: left;
+}
+.item_img_wrap{
+	width: 135px;
+	overflow: hidden;
+	height: 135px;
+	box-sizing: border-box;
+	border: 2px solid #b7b7b7;
+}
+.item_img_wrap > img{
+	width: 100%;
+}
+.item_img_wrap > img:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+.item_info{
+	width: 650px;
+	height: 180px;
+	float: left;
+	/*background: blue;*/
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+.item_info_top{
+	width: 100%;
+	height: 45px;
+	/*background: green;*/
+}
+.item_info_top > div{
+	float: left;
+	height: 100%;
+}
+.info_top_left{
+width: 80%;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.info_top_left > h1{
+	color: #ed145b;
+	font-family: "a뉴고딕M";
+	line-height: 45px;
+	font-size: 1.0em;
+}
+.info_top_right{
+	width: 20%;
+	box-sizing: border-box;
+}
+.info_top_right > p{
+	/*width: 20%;*/
+	font-size: 13px;
+	line-height: 45px;
+	margin-right: 20px;
+	text-align: right;
+	font-family: "a뉴고딕M";
+	/*box-sizing: border-box;*/
+}
+.item_info_bottom{
+	width: 706px;
+	height: 60px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*word-wrap: break-word;*/
+	word-break:break-all;
+	-webkit-line-clamp:3;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*background: green;*/
+}
+.item_info_bottom>p{
+	width:640px;
+	height: 54px;
+	line-height: 18px;
+	word-break:break-all;
+	white-space:pre-line;
+	overflow: hidden; 
+	box-sizing: border-box;
+	font-family: "a뉴고딕M";
+	font-size:0.9em;
+	/*padding-left: 10px;*/
+	padding-right: 10px;
+}
+.item_icon_board{
+	width: 120px;
+	height: 100%;
+	float: left;
+	/*background: red;*/
+	position: relative;
+	padding-top: 28px;
+	box-sizing: border-box;
+	margin-left: -10px;
+	margin-right:5px;
+}
+.icon_board_circle{
+	width: 85px;
+	height: 85px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 6px;
+	padding-top: 6px;
+	background: #ed145b;
+}
+.icon_in_board_circle{
+	width: 74px;
+	overflow: hidden;
+	height: 74px;
+	/*background: white;*/
+}
+.icon_in_board_circle > img{
+	width: 100%;
+}
+.item_icon_board >p{
+	/*width: 100%;*/
+	text-align: center;
+	margin-top: 20px;
+	font-family: "a뉴고딕M";
+}
+.bal{
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	/*left: 130px;*/
+	width: 23px;
+}
+.balloon {
+	    display: inline-block;
+    position: relative;
+    background: #362446;
+    height: 23px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 0 auto 10px;
+}
+.balloon > p{
+	color: white;
+	text-align: center;
+	line-height: 23px;
+}
+.balloon:after {
+    content: '';
+    position: absolute;
+    border-top: 10px solid #362446;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    /*bottom: -15px;*/
+    /*left: 35px;*/
+    left: -8px;
+    top: 7px;
+    transform: rotate(90deg);
+}
+.item_icon_like{
+	width: 108px;
+	height: 100%;
+	float: left;	
+	box-sizing: border-box;
+	padding-top: 31px;
+	padding-left: 7px;
+	/*background: red;*/
+}
+.icon_info_div{
+	width: 108px;
+	height: 30%;
+	/*background: red;*/
+}
+.icon_info_div_circle{
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	float: left;
+	padding:2px;
+	background: #ed145b;
+}
+.icon_info_div_count {
+	float: left;
+	line-height: 25px;
+	font-size: 13px;
+	margin-left: 5px;
+	font-family: 'a뉴고딕M';
+}
+.icon_info_div_circle > i{
+	color: white;
+	/*padding:3px;*/
+	font-size: 0.8em;
+}
+.different>span{
+	height:26px;
+	background-color: white;
+	border:1px solid gray;
+	border-radius:9px;
+	font-size:0.9em;
+	color:gray;
+	padding:4px;
+}

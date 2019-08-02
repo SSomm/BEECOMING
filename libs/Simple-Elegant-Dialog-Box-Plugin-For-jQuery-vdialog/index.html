@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery vdialog Plugin Demos</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<link href="css/vdialog.css" rel="stylesheet" type="text/css">
+<style>
+.container { margin:150px auto;}
+body { font-family:'Raleway';}
+</style>
+</head>
+
+<body>
+<div class="container">
+<h1>jQuery vdialog Plugin Demos</h1>
+<div class="jquery-script-ads" style="margin:50px auto;"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<a class="btn btn-primary" id="demo-2" href="javascript:;">Auto Dismiss</a>
+<a class="btn btn-info" id="demo-3" href="javascript:;">Confirm</a>
+<a class="btn btn-warning" id="demo-4" href="javascript:;">Alert</a>
+<a class="btn btn-success" id="demo-5" href="javascript:;">Success</a>
+<a class="btn btn-danger" id="demo-6" href="javascript:;">Error</a>
+</div>
+<script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/lib/vdialog.js"></script>
+<script>
+vdialog({
+    title: 'Hello World',
+    content: 'I am a basic dialog',
+    ok: true
+  });
+$('#demo-2').on('click', function() {
+  vdialog({
+    title: 'Title',
+    content: 'I am a basic dialog',
+    time: 3
+  }).showModal();
+});
+
+$('#demo-3').on('click', function() {
+  vdialog.confirm('Are You Sure', function(){
+  alert('Confirm');
+});
+});
+
+$('#demo-4').on('click', function() {
+ vdialog.alert('Alert dialog');
+});
+
+$('#demo-5').on('click', function() {
+vdialog.success('Success dialog');
+});
+
+$('#demo-6').on('click', function() {
+vdialog.error('Error dialog');
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+.wrap{
+	width: 100%;
+	height: 2954px;
+	/*background: red;*/
+}
+.welcome_section{
+	width: 100%;
+	height: 1018px;
+	position: relative;
+	margin-top: -20px;
+	background: url("../images/about_back1.png");
+	/*background: blue;*/
+}
+/*.welcome_section >img{*/
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*top: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*z-index: 1;*/
+/*}*/
+.welcome_wrap{
+	position: relative;
+	width: 1142px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 247px;
+}
+.welcome_body{
+	width: 1102px;
+	height: 600px;
+	background: white;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.welcome_body_wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: url("../images/gr_back.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	
+}
+.welcome_body_wrap >.main_img{
+	margin-top: 64px;
+}
+.welcome_body_wrap > h1{
+	color: white;
+	font-family: '조선일보명조';
+	font-size: 40px;
+	margin-top: 50px;
+}
+.welcome_body_wrap >p{
+	width: 877px;
+	height: 171px;
+	font-family: '조선일보명조';
+	font-size: 22px;
+	margin-top: 10px;	
+	text-align: left;
+	margin: 0 auto;
+	color: white;
+	margin-top: 50px;
+}
+.logos_img{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 207px;
+	height: 90px;
+}
+.title_btn{
+	position: absolute;
+	left: -230px;
+	top: 247px;
+	width: 210px;
+	height: 55px;
+	box-sizing: border-box;
+	border: 3px solid #EE1E72;
+	background: white;
+	text-align: center;
+}
+.title_btn > p{
+	line-height: 51px;
+	color: #EE1E72;
+	font-size: 23px;
+	font-family:'a뉴고딕M';
+	font-weight: bold;
+}
+.tri{
+	width: 0;
+	height: 0;
+	border-top: 20px solid #EE1E72;
+	border-right: 20px solid transparent;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+.greetings{
+	padding-top: 20px;
+	line-height: 35px;
+}
+.service_section{
+	width: 100%;
+	height: 913px;
+	background: #F3F2F2;
+}
+.service_wrap{
+	position: relative;
+	width: 1142px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 135px;
+}
+.service_wrap > h1{
+	box-sizing: border-box;
+	
+	color: #EE1E72;
+	text-shadow: 2px 2px 2px #ddd; 
+	font-family: '조선일보명조';
+	font-size:45px;
+}
+.service_body{
+	width: 1131px;
+	height: 428px;
+	/*background: red;*/
+	margin: 0 auto;
+	margin-top: 88px;
+}
+.service_item{
+	width: 352px;
+	cursor: pointer;
+	height: 100%;
+	background: white;
+	position: relative;
+	box-shadow: 1px 1px 5px 1px  #ddd;
+	box-sizing: border-box;
+	padding-top: 42px;
+	float: left;
+	margin-left: 30px;
+}
+.service_item:nth-child(1){
+	margin-left: 0;
+}
+.service_item > h2{
+	text-align: center;
+	font-size: 32px;
+	color: #EE1E72;
+}
+.service_item >img{
+	margin-top: 30px;
+}
+.service_item > p{
+	color: black;
+	font-family: '더페이스샵 잉크립퀴드체';
+	font-size: 32px;
+	margin-top: 40px;
+}
+.big_tri{
+	width: 0;
+	height: 0;
+	border-top: 35px solid #EE1E72;
+	border-right: 35px solid transparent;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.service_info{
+	width: 700px;
+	height: 57px;
+	margin: 0 auto;
+	margin-top: 50px;
+	/*background: red;*/
+	text-align: center;
+	/*margin-right: 30px;*/
+}
+.service_info > span{
+	cursor: pointer;
+	margin-left: 150px;
+	line-height: 57px;
+	color: #EE1E72;
+	font-family:'a뉴고딕M';
+	font-weight: bold;
+	padding:15px;
+}
+.service_info > span:nth-child(1){
+	margin-left: 0;
+}
+.service_info > span:hover{
+	color:#EE1E72;
+	border:2px solid #EE1E72;
+	background-color:white;
+	transition: 1s;
+}
+.send_section{
+	width: 100%;
+	height: 809px;
+	position: relative;
+	background: url("../images/about_bak2.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.send_wrap{
+	position: relative;
+	width: 1142px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 107px;
+}
+.send_wrap > h1{
+	color: white;
+	text-shadow: 2px 2px 4px dimgray; 
+	font-family: '조선일보명조';
+	font-size:45px;
+}
+.send_body{
+	width: 1145px;
+	height: 485px;
+	/*background: red;*/
+	margin-top: 102px;
+}
+.send_body_left{
+	width: 426px;
+	height: 485px;
+	float: left;
+}
+.send_body_top{
+	width: 100%;
+	height: 87px;
+}
+.send_body_top > img{
+	width: 100%;
+}
+.send_left_bottom{
+	width: 100%;
+	height: 395px;
+	padding-top: 20px;
+
+}
+.send_item{
+	/*background: red;*/
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+}
+.send_item > img{
+	float: left;
+	width: 10%;
+
+	margin-left: 80px;
+}
+.send_item > p{
+	float: left;
+	text-align: left;
+	margin-top: 5px;
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+	/*line-height:35px;*/
+	margin-left: 20px;
+	font-family:'a뉴고딕M';
+}
+.send_body_right{
+	/*margin-top: 10px;*/
+	width: 661px;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+	/*background: red;*/
+}
+.send_body_right * {
+	float: left;
+}
+.right_top_input{
+	margin-top: 15px;
+	width: 323px;
+	height: 48px;
+	background: rgba(255,255,255,0.8);
+	border: none;
+	font-family:'a뉴고딕M';
+	box-shadow: 2px 2px 4px dimgray;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 16px;
+}
+.right_top_input::placeholder{
+	font-family:'a뉴고딕M';
+}
+.send_mail{
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	border: none;
+	box-shadow:2px 2px 4px dimgray;
+	margin-top: 15px;
+height: 48px;
+font-family:'a뉴고딕M';
+padding-left: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.send_mail::placeholder{
+	font-family:'a뉴고딕M';
+}
+.send_title{
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	border: none;
+	box-shadow: 2px 2px 4px dimgray;
+	margin-top: 15px;
+height: 48px;
+padding-left: 10px;
+font-family:'a뉴고딕M';
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.send_title::placeholder{
+	font-family:'a뉴고딕M';
+}
+.sned_body{
+	width: 100%;
+	resize: none;
+	background: rgba(255,255,255,0.8);
+	border: none;
+	box-shadow: 2px 2px 4px dimgray;
+	margin-top: 15px;
+	font-family:'a뉴고딕M';
+height: 220px;
+padding: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.sned_body::placeholder{
+	font-family:'a뉴고딕M';
+}
+.send_btn{
+	width: 100%;
+	border: none;
+	box-shadow:2px 2px 4px dimgray;
+	margin-top: 15px;
+height: 52px;
+color: white;
+background: #EE1E72;
+text-align: center;
+/*padding-left: 10px;*/
+	font-size: 18px;
+	font-family:'a뉴고딕M';
+	font-weight: bold;
+	box-sizing: border-box;
+}
