@@ -364,7 +364,7 @@ DAILY PERFUME PRODUCT
 								</div>
 								<div class="slide_div_item_bottom">
 									<div class="slide_bottom_left">
-										<img src="http://192.168.20.78/becoming0508/category_img/<?php echo $row1['category']?>/<?php echo$thumb1[0];?>" alt="img">
+										<img src="./category_img/<?php echo $row1['category']?>/<?php echo$thumb1[0];?>" alt="img">
 									</div>
 									<div class="slide_bottom_right">
 										<div class="right_hot">
