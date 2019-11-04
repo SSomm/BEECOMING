@@ -1,1 +1,1 @@
-BEECOMING: Sense Curation GiftShop
+BEECOMING: Big-data based Sense Curation GiftShop
