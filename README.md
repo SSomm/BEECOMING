@@ -14,3 +14,5 @@ group 2) Corporate users - who want to sell their products as gifts<br>
 
 
 ** codes are not neatly organized. It will be updated soon. (till the end of year - 2019)
+
+![BEECOMING_main](./images/BEECOMING_main.png)
